@@ -1,11 +1,11 @@
- ## 📚 Projet de Gestion de Bibliothèque
+ ##  Projet de Gestion de Bibliothèque
 
 **Développé par : Yasmina Ait Ben Addi**  
 **Technologies : Python 3, Tkinter / CustomTkinter, Matplotlib**
 
 ---
 
- ## 🎯 Objectif du projet
+ ##  Objectif du projet
 
 Créer une application permettant de gérer une bibliothèque (livres, membres, emprunts) avec :
 - Une interface **CLI (ligne de commande)**
@@ -15,51 +15,51 @@ Créer une application permettant de gérer une bibliothèque (livres, membres, 
 
 ---
 
- ## 🚀 Fonctionnalités
+ ##  Fonctionnalités
 
-- 📚 **Livres**
+-  **Livres**
   - Ajouter / Supprimer des livres
   - Visualiser tous les livres
   - Gérer la disponibilité (emprunté ou non)
 
-- 👥 **Membres**
+-  **Membres**
   - Inscrire / Supprimer un membre
   - Voir les livres empruntés
 
-- 🔁 **Emprunt / Retour**
+-  **Emprunt / Retour**
   - Emprunter un livre
   - Rendre un livre
 
-- 📈 **Statistiques visuelles**
+-  **Statistiques visuelles**
   - Répartition des genres
   - Auteurs les plus lus
   - Activité des emprunts dans le temps
 
-- ✅ **Gestion des erreurs via des exceptions personnalisées**
+-  **Gestion des erreurs via des exceptions personnalisées**
 
 ---
 
-## 🗂️ Arborescence du projet
+## Arborescence du projet
 
-📁 Gestion_Bibliotheque_AitBenAddi_Yasmina/  
+ Gestion_Bibliotheque_AitBenAddi_Yasmina/  
 │  
-├── 📁 .venv/  
+├──  .venv/  
 │  
-├── 📁 assets/  
+├──  assets/  
 │   ├── activite_emprunts.png  
 │   ├── stats_auteurs.png  
 │   ├── stats_genres.png  
 │   └── presentation.mp4  
 │  
-├── 📁 data/  
+├──  data/  
 │   ├── livres.txt  
 │   ├── membres.txt  
 │   └── historique.csv  
 │  
-├── 📁 docs/  
+├──  docs/  
 │   └── Rapport (2).pdf  
 │  
-├── 📁 src/  
+├──  src/  
 │   ├── bibliotheque.py  
 │   ├── exceptions.py  
 │   ├── interface.py  
@@ -69,21 +69,21 @@ Créer une application permettant de gérer une bibliothèque (livres, membres, 
 ├── README.md  
 └── requirements.txt
 
-## 🖥️ Lancer le projet
+## Lancer le projet
 
-### ▶️ Lancer la version Interface Graphique
+###  Lancer la version Interface Graphique
 
 ```bash
 python src/interface.py 
 ```
 
 
-### ▶️ Lancer la version Ligne de Commande (CLI)
+###  Lancer la version Ligne de Commande (CLI)
 ```bash 
 python src/main.py 
 ```
 
-## 📥 Installation
+##  Installation
 ### Prérequis
 - Python 3.10 ou plus
 - les bibliothèques suivantes:
@@ -95,8 +95,36 @@ python src/main.py
 ```bash
 pip install -r requirements.txt
 ```
+##  Exemples d'utilisation
+
+# Exemple 1 : Ajouter un livre via CLI
+choisis l'option : 1 - Ajouter un livre
+Saisis :
+ISBN : 1011
+Titre : Les Misérables
+Auteur : Victor Hugo
+Année : 1862
+Genre : Roman
 
 
+ # Exemple 2 – Emprunter un livre
+Choisis l'option : 3 - Emprunter un livre
+Entres l’ISBN du livre (ex. 1002) et l’ID du membre (ex. 1)
+
+Un message s’affiche :
+
+Livre emprunté avec succès !
+
+# Exemple 3 – Afficher les statistiques
+Lance l'interface graphique et clique sur l’onglet Statistiques :
+
+Les graphiques suivants apparaissent :
+
+- Répartition par genre
+
+- Auteurs les plus lus
+
+- Activité des emprunts
 
 
 
