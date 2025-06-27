@@ -1,0 +1,9 @@
+1002;Le Petit Prince;Antoine de Saint-Exupéry;1943;Fiction;disponible
+1003;1984;George Orwell;1949;Science-fiction;disponible
+1004;L'Étranger;Albert Camus;1942;Philosophie;emprunté
+1005;La Peste;Albert Camus;1947;Philosophie;emprunté
+1006;Harry Potter 1;J.K. Rowling;1997;Fantasy;disponible
+1007;Harry Potter 2;J.K. Rowling;1998;Fantasy;emprunté
+1008;Le Rouge et le Noir;Stendhal;1830;Roman;emprunté
+1009;Fahrenheit 451;Ray Bradbury;1953;Science-fiction;disponible
+1010;Le Meilleur des mondes;Aldous Huxley;1932;Science-fiction;disponible
